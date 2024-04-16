@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import ChatPage from "./components/Chat";
 import Home from "./components/Home";
 
-const socket = io.connect("http://localhost:7777");
+const socket = io.connect("http://85.143.216.62:7777");
 
 function App() {
    return (
